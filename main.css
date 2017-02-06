@@ -1,0 +1,28 @@
+/*
+.form-row{
+	padding: :10px 0;
+	display: flex;
+}
+
+.form-row label {
+	padding-right: 10px;
+}
+
+.form-row input {
+	flex: 1;
+}
+*/
+
+.seccion_busqueda{
+	max-width: 600px;
+	margin: 40px auto 0 auto;
+	background-color: black;
+	color: white;
+
+}
+.busqueda{
+	display: flex;
+}
+.busqueda input{
+	flex:1;
+}
