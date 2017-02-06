@@ -12,17 +12,41 @@
 	flex: 1;
 }
 */
+h1{
+	margin-left: 10px;
+	order: 1;
+	flex:1;
 
-.seccion_busqueda{
-	max-width: 600px;
-	margin: 40px auto 0 auto;
+	
+}
+
+.prueba{
+	display: flex;
+	
 	background-color: black;
+	height: 100px;
 	color: white;
+}
+.seccion_busqueda{
+	
+	
+	display: flex;
+	order: 2;
+	flex:1;
+	
+	
+
+
 
 }
 .busqueda{
 	display: flex;
+	margin: auto;
+	flex: 2;
+	
+	
 }
 .busqueda input{
 	flex:1;
+	
 }
