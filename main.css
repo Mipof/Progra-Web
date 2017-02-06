@@ -15,9 +15,15 @@
 h1{
 	margin-left: 10px;
 	order: 1;
-	flex:1;
-
-	
+	flex:1;	
+}
+h2{
+	margin-right: 10px;
+	order: 3;
+	font-size: 15px;
+	margin:auto;
+	padding-right: 4%;
+			
 }
 
 .prueba{
@@ -32,7 +38,9 @@ h1{
 	
 	display: flex;
 	order: 2;
-	flex:1;
+	flex:3;
+	padding-right: 25%;
+	padding-left: 10%;
 	
 	
 
@@ -49,4 +57,19 @@ h1{
 .busqueda input{
 	flex:1;
 	
+}
+.menusitos{
+	display: flex;
+	color:white;
+	background-color: black;
+	justify-content: flex-end;
+	
+	
+	
+
+}
+h3{
+	font-size: 14px;
+	padding-left:5%;
+	margin:0 1%;
 }
