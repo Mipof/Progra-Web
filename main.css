@@ -33,6 +33,7 @@ h2{
 	height: 100px;
 	color: white;
 }
+
 .seccion_busqueda{
 	
 	
@@ -41,35 +42,57 @@ h2{
 	flex:3;
 	padding-right: 25%;
 	padding-left: 10%;
-	
-	
-
-
-
 }
+
 .busqueda{
 	display: flex;
 	margin: auto;
 	flex: 2;
-	
-	
 }
+
 .busqueda input{
 	flex:1;
 	
 }
+
 .menusitos{
 	display: flex;
 	color:white;
 	background-color: black;
 	justify-content: flex-end;
-	
-	
-	
-
 }
+
 h3{
 	font-size: 14px;
 	padding-left:5%;
 	margin:0 1%;
+}
+
+.menu_cuenta{
+	display: flex;
+	flex-direction: column;
+}
+.categorias{
+		
+	width: 350px;
+	height: 100px;
+	border-width: : thin;
+	border-style: solid;
+	margin:10px auto;
+	display: flex;
+	
+
+	
+}
+
+
+h4{
+	margin: 15px 5px;
+	flex:1;
+	
+}
+.sub_categorias{
+	flex:1;
+	font-size: 12px;
+	color: blue;
 }
