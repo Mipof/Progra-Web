@@ -1,0 +1,52 @@
+/*
+-webkit-transition: all 4s ease;
+-moz-transition: all 4s ease;
+-ms-transition: all 4s ease;
+-o-transition: all 4s ease;
+transition: all 4s ease;
+*/
+header,footer {
+  background: #212121;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #424242;
+}
+
+h1 {
+  color: #FFF;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.principal { width: 70%; }
+
+.publicidad {
+  width: 25%;
+  background-color: #616161;
+}
+
+.detalle-producto {
+  display: flex;
+}
+
+.detalle-tecnico {
+  background-color: #616161;
+}
+
+.comentarios {
+  background-color: #616161;
+}
+
+.lista-productos {
+  background-color: #616161;
+}
