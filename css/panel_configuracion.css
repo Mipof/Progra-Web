@@ -23,15 +23,14 @@ h4{
 	margin-top:10px;
 }
 
-.prueba h1{
+.header h1{
 	margin:auto;
 	order:1;
 	flex:1;	
 }
 
-.prueba{
-	display:flex;
-	
+.header{
+	display:flex;	
 	background-color: black;
 	height:100px;
 	color:white;
@@ -65,19 +64,21 @@ h4{
 .categorias{	
 	width:350px;
 	height:100px;
-	border-width:thin;
-	border-style:double;
-	margin:10px auto;
+	margin: auto;
 	display:flex;
-	border-width:3px;
-	border-radius:10px;
 	font-family:"Times New Roman", Times, serif;
+	border-bottom-width: thin;
+	border-bottom-style: double;
+	/*border-width: thin;
+	border-style: double;
+	border-width: 4px;
+	border-radius: 5px;*/
 }
-
 .sub_categorias{
 	flex:1;
 	font-size:13px;
 	color:blue;
+	font-family: helvetica;
 }
 .pie_pagina{
 	display:flex;
