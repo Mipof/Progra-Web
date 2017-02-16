@@ -1,41 +1,126 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Business Entities</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/main.css">
+</head>
 
-  <head>
-    <title>Business Entities</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
+<body>
 
-  <body>
+  <header>  <!----------- HEADER ----------->
+    <nav class="main-header">
+<!-- Menu -->
+      <ul class="menu">
+        <li id="department"><a href="#">Departament</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
 
-    <header>
-      <div class="main-header">
-      <!-- Menu -->
-        <nav class="menu">
-          <h5>Departament</h5>
-          <h5>Home</h5>
-        </nav>
-      <!-- Search section (Logo & form) -->
-        <section class="search-section">
-          <!-- Logo -->
-          <article class="logo">
+<!-- Search section (Logo & form) -->
+      <form class="search-section" action="" method="post">
+          <div class="logo">
             <img src="images/logo.jpeg">
-          </article>
-          <article class="search-form">
-            <form action="" method="post">
-              <input type="text" name="search" placeholder="Search BE">
-            </form>
-          </article>
-        </section>
-      <!-- Sign in & sign up buttons -->
-        <section class="site-header-actions">
-          <a class="button-sign-in" href="">Sign in</a>
-          <a class="button-sign-up" href="">Sign up</a>
-        </section>
+          </div>
+            <input type="text" name="search" placeholder="Search BE">
+      </form>
 
+<!-- Sign in & sign up buttons -->
+      <div class="site-header-actions">
+        <ul class="header-actions">
+          <li><a class="button-sign-in" href="">Sign-in</a></li>
+          <li><a class="button-sign-up" href="">Sign-up</a></li>
+        </ul>
       </div>
-    </header>
-  </body>
+
+    </nav>
+  </header>
+
+  <div class="center-body">
+<!-- Product -->
+    <section class="product">
+      <ul class="photo-list">
+        <li>
+          <button type="submit">
+            <img src="images/photo-2.jpg" width="35" height="35">
+          </button>
+        </li>
+
+        <li>
+          <button type="submit">
+            <img src="images/photo-3.jpg" width="35" height="35">
+          </button>
+        </li>
+      </ul>
+
+      <figure class="figure-product">
+        <img class="main-photo" src="images/photo-1.jpeg" alt="Dhoto product" width="300" height="300">
+        <figcaption>
+          <h1>Product title</h1><br>
+          <h3>$ 10,000</h3>
+          <ul class="general-details">
+            <li>Windows 10 home</li>
+            <li>Processor: A8-7410 QC Carrizo L</li>
+            <li>1 TB</li>
+            <li>8 GB RAM</li>
+          </ul>
+
+        </figcaption>
+
+      </figure>
+
+    </section>
+<!-- Technical product details-->
+    <section class="product-details">
+      <table>
+        <caption>Technical product details</caption>
+        <tbody>
+          <tr>
+            <td class="especification">Something</td>
+            <td>Detail</td>
+            <td class="especification">Something else</td>
+            <td>Other detail</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+<!-- more-products -->
+    <section class="more-products">
+      <figure>
+        <img src="images/other-photo-1.jpg" alt="PlayStation 4" width="100" height="100">
+        <figcaption>
+          <h5>PlayStation 4 FIFA</h5>
+        </figcaption>
+      </figure>
+    </section>
+<!-- Company details -->
+    <section class="company-details">
+      <table>
+        <caption>Logo && company name</caption>
+        <tbody>
+          <tr>
+            <td>Something</td>
+            <td>Something else</td>
+            <td>Something else</td>
+          </tr>
+            <tr>
+            <td>Something</td>
+            <td>Something else</td>
+            <td>Something else</td>
+          </tr>
+            <tr>
+            <td>Something</td>
+            <td>Something else</td>
+            <td>Something else</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </div>
+
+  <footer>
+
+  </footer>
+</body>
 
 </html>
