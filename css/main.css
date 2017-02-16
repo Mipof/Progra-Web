@@ -161,6 +161,32 @@ header {
   flex: 1;
 }
 
+.more-products {
+  justify-content: space-between;
+}
+
+.other-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-products figure {
+  flex-basis: 15%;
+  min-width: 100px;
+  min-height: 100px;
+  background-color: #FFF;
+  padding: 5px;
+  box-shadow: 0 0 5px;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.other-product h5 {
+  margin-top: 5px;
+  font-size: 11;
+  font-family: fantasy;
+}
+
 footer {
   padding-top: 20px;
   padding-bottom: 20px;
