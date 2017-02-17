@@ -3,11 +3,38 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.contenedor.logo{
+	border-image: url("bargo.jpg");
+	border-radius: 15px;
+}
 
+table{
+	border-collapse: inherit;
+	background-color: black;
+	caption-side: top;
+	border-radius: 15px;
+}
+
+th {
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+  border-top: 4px solid #aabcfe;
+	border-bottom: 1px solid #fff; color: #039;
+}
+td {padding: 8px;
+	  background: #e8edff;
+		border-bottom: 1px solid #fff;
+    color: #669;
+		border-top: 1px solid transparent;
+	}
+
+tr:hover td { background: #d0dafd; color: #339; }
 .contenedor {
-	background:#ccc;
-	width:90%;
-	max-width:1000px;
+	background:white;
+	width:100%;
+	max-width:1420px;
 	margin:auto;
 
 	/* Flexbox */
@@ -47,6 +74,21 @@ header .logo a {
 	color:#fff;
 	text-decoration: none;
 	line-height:100px
+
+}
+.search-section{
+	display: flex;
+	flex-direction: row;
+	border-radius: 15px;
+}
+.search-section {
+  flex: 3;
+  padding-left: 10px;
+  border-radius: 15px;
+	padding-right: 10px;
+}
+.search-section input{
+  flex: 1;
 }
 
 header nav {
@@ -94,8 +136,8 @@ header nav a:hover {
 }
 
 aside {
-	background:black;
-	padding:20px;
+	background:white;
+	padding:30px;
 	/*FLEX*/
 	flex:1 1 30%;
 	/*flex:0 0 300px;*/
@@ -103,15 +145,10 @@ aside {
 	display: flex;
 	flex-wrap:wrap;
 	flex-direction:column;
-	justify-content:center;;
+	justify-content:flex-start;
 }
 
-aside .widget {
-	background: gray;
-	height:150px;
-	margin:10px;
 
-}
 
 footer {
 	background:black;
