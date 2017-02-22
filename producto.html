@@ -1,155 +1,127 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Business Entities</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/main.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nexo</title>
+    <link rel="stylesheet" href="css/producto.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  </head>
 
-<body>
+  <body>
 
-  <header>  <!----------- HEADER ----------->
-    <nav class="main-header">
-<!-- Menu -->
-      <ul class="menu">
-        <li id="department"><a href="#">Departament</a></li>
-        <li><a href="#">Home</a></li>
-      </ul>
+    <header>
+      <div class="header-principal">
+        <!-- Menu izquierdo-->
+        <nav class="menu-izq">
 
-<!-- Search section (Logo & form) -->
-      <form class="search-section" action="" method="post">
-          <div class="logo">
-            <img src="images/logo.jpeg">
-          </div>
-            <input type="text" name="search" placeholder="Search BE">
-      </form>
-
-<!-- Sign in & sign up buttons -->
-      <div class="site-header-actions">
-        <ul class="header-actions">
-          <li><a class="button-sign-in" href="">Sign-in</a></li>
-          <li><a class="button-sign-up" href="">Sign-up</a></li>
-        </ul>
-      </div>
-
-    </nav>
-  </header>
-
-  <div class="center-body">
-<!-- Product -->
-    <section class="product">
-      <ul class="photo-list">
-        <li>
-          <button type="submit">
-            <img src="images/photo-2.jpg" width="35" height="35">
-          </button>
-        </li>
-
-        <li>
-          <button type="submit">
-            <img src="images/photo-3.jpg" width="35" height="35">
-          </button>
-        </li>
-      </ul>
-
-      <figure class="figure-product">
-        <img class="main-photo" src="images/photo-1.jpeg" alt="Dhoto product" width="50%" height="100%">
-        <figcaption>
-          <h1>Product title</h1><br>
-          <h3>$ 10,000</h3>
-          <ul class="general-details">
-            <li>Windows 10 home</li>
-            <li>Processor: A8-7410 QC Carrizo L</li>
-            <li>1 TB</li>
-            <li>8 GB RAM</li>
+          <ul class="fa-ul" id="filtro-home">
+            <li><a class="fa-li fa fa-filter"></a></li>
+            <li><a class="fa-li fa fa-home" href="#"></a></li>
           </ul>
 
-        </figcaption>
-
-      </figure>
-
-    </section>
-<!-- Technical product details-->
-    <section class="product-details">
-      <table>
-        <caption>Technical product details</caption>
-        <tbody>
-          <tr>
-            <td class="especification">Something</td>
-            <td>Detail</td>
-            <td class="especification">Something else</td>
-            <td>Other detail</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-<!-- more-products -->
-    <section class="more-products">
-      <figure class="other-product">
-        <img src="images/other-photo-1.jpg" alt="PlayStation 4" width="100" height="100">
-        <figcaption>
-          <h5>PlayStation 4 FIFA</h5>
-        </figcaption>
-      </figure>
-
-      <figure class="other-product">
-        <img src="images/other-photo-2.jpg" alt="PlayStation 4" width="100" height="100">
-        <figcaption>
-          <h5>Resident evil</h5>
-        </figcaption>
-      </figure>
-
-      <figure class="other-product">
-        <img src="images/other-photo-2.jpg" alt="PlayStation 4" width="100" height="100">
-        <figcaption>
-          <h5>Resident evil</h5>
-        </figcaption>
-      </figure>
-
-      <figure class="other-product">
-        <img src="images/other-photo-2.jpg" alt="PlayStation 4" width="100" height="100">
-        <figcaption>
-          <h5>Resident evil</h5>
-        </figcaption>
-      </figure>
-
-      <figure class="other-product">
-        <img src="images/other-photo-2.jpg" alt="PlayStation 4" width="100" height="100">
-        <figcaption>
-          <h5>Resident evil</h5>
-        </figcaption>
-      </figure>
-
-    </section>
-<!-- Company details -->
-    <section class="company-details">
-      <table>
-        <caption>Logo && company name</caption>
-        <tbody>
-          <tr>
-            <td>Something</td>
-            <td>Something else</td>
-            <td>Something else</td>
-          </tr>
+          <ul>
+            <li><a href="#">Departamento</a></li>
+            <li><a href="#">Inicio</a></li>
+          </ul>
+        </nav>
+        <!-- Seccion de busqueda -->
+        <form action="index.html" method="post" class="seccion-busqueda">
+            <img src="images/logo.jpg" alt="Nexo">
+            <input type="search" name="" value="" placeholder="Buscar nexo">
+        </form>
+        <!-- Menu de login,registro e informacion -->
+        <nav class="menu-der">
+          <a href="#" class="fa fa-menu" id="icono-menu"></a>
+          <ul>
+            <li><a href="#" class="button" id="ingresar">Ingresar</a></li>
+            <li><a href="#" class="button" id="registrar">Registrate</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+<!-- Fin del header -->
+    <main>
+      <section class="producto">
+        <ul class="lista-fotos">
+          <li>
+            <button type="submit">
+              <img src="images/photo-2.jpg">
+            </button>
+          </li>
+          <li>
+            <button type="submit">
+              <img src="images/photo-3.jpg">
+            </button>
+          </li>
+        </ul>
+        <!-- Fin de la lista de fotos -->
+        <figure>
+          <img class="foto-principal" src="images/photo-1.jpeg" alt="Dhoto product" width="50%" height="100%">
+          <figcaption>
+            <h1>Product title</h1><br>
+            <h3>$ 10,000</h3>
+            <ul class="detalles-generales">
+              <li>Windows 10 home</li>
+              <li>Processor: A8-7410 QC Carrizo L</li>
+              <li>1 TB</li>
+              <li>8 GB RAM</li>
+            </ul>
+          </figcaption>
+        </figure>
+        <!-- Fin de detalles egneral del producto -->
+      </section>
+<!-- Fin del producto -->
+      <section class="detalles-tecnicos">
+        <table>
+          <caption>Technical product details</caption>
+          <tbody>
             <tr>
-            <td>Something</td>
-            <td>Something else</td>
-            <td>Something else</td>
-          </tr>
+              <td class="especification">Something</td>
+              <td>Detail</td>
+              <td class="especification">Something else</td>
+              <td>Other detail</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+<!-- Fin de detalles tecnicos -->
+      <section class="mas-productos">
+        <article id="otro-producto">
+          <figure>
+            <img src="images/other-photo-1.jpg" alt="PlayStation 4">
+            <figcaption>
+              <h3>PlayStation 4 FIFA</h5>
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+<!-- Fin de mas productos-->
+      <section class="detalle-empresa">
+        <table>
+          <caption></caption>
+          <tbody>
             <tr>
-            <td>Something</td>
-            <td>Something else</td>
-            <td>Something else</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+              <td>Something</td>
+              <td>Something else</td>
+              <td>Something else</td>
+            </tr>
+            <tr>
+              <td>Something</td>
+              <td>Something else</td>
+              <td>Something else</td>
+            </tr>
+            <tr>
+              <td>Something</td>
+              <td>Something else</td>
+              <td>Something else</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+<!-- Fin de detalles de empresa -->
 
-  </div>
+    </main>
 
-  <footer>
-
-  </footer>
-</body>
-
+  </body>
 </html>
