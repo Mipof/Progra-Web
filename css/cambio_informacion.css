@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #FFF;
+  color: #67727A;
+  font-family: 'Alegreya', sans-serif;
+  font-size: 65%;
+}
+
+h1 {
+  text-align: center;
+  padding: 2%;
+}
+
+h3 {
+  padding: 2%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+header {
+  width: 100%;
+  height: 86px;
+  box-shadow: 0 2px 5px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-principal {
+  flex: 1;
+  max-width: 1200px;
+  min-width: 340px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-izq, .seccion-busqueda, .menu-der {
+  height: 40px;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+}
+
+.menu-izq {
+  flex: 1;
+  max-width: 280px;
+  min-width: 100px;
+}
+
+#filtro-home {
+  display: none;
+  width 100px;
+  height: 40px;
+}
+
+.seccion-busqueda {
+  flex: 2;
+  max-width: 480px;
+  min-width: 120px;
+
+  display: flex;
+}
+
+.seccion-busqueda input {
+  min-width: 80px;
+  padding-left: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 1px solid #D5D5D5;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.seccion-busqueda img { /****** logo *******/
+  background: url(images/logo.jpg) no-repeat center;
+}
+
+.menu-der {
+  flex: 1;
+  max-width: 280px;
+  min-width: 50px;
+  justify-content: flex-end;
+}
+
+.button {
+  padding: 4px;
+  border: 1px solid #D5D5D5;
+  border-radius: 3px;
+}
+
+#ingresar {
+  background-color: #EEE;
+  border: 1px solid #D5D5D5;
+}
+
+#registrar {
+  color: #FFF;
+  background-color: #6CC644;
+  border: 1px solid #5AAD35;
+}
+
+a:hover#registrar {
+  color: gray;
+}
+ñ
+#bars {
+  display: none;
+}
+
+a:hover#icono-menu {
+  border-radius: 5px 5px 0 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: gray;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.producto, .detalles-tecnicos, .mas-productos, .detalle-empresa {
+  max-width: 1200px;
+  min-width: 320px;
+}
+
+#otro-producto {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+#cuerpo{
+background: white;
+}
+
+.formulario{
+  color: blue;
+  margin: auto;
+  width: 90%;
+  max-width: 500px;
+  background: #FAFAFA;
+  padding: 50px;
+  border: 1px;
+  border-radius: 7px;
+}
+.form_titulo{
+background: linear-gradient(#FFDA63,#FFB940);
+  color:brown;
+  padding: 20px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  border-top-left-radius:7px;
+  border-top-right-radius: 7px;
+  border-bottom: 5px solid crimson;
+}
+.contenedor_input{
+  padding: 10px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.input-48{
+  width: 48%;
+}
+.input-100{
+  width: 100%;
+}
+.btn_link{
+  width: 100%;
+  margin: 7px;
+  text-align: center;
+  font-size: 14px;
+}
+#cuerpo{
+background: white;
+}
+footer{
+
+    background-color:white;
+
+    width: 100%;
+    max-width: 1280px;
+}
+aside{
+    background-color:white;
+    height:30px;
+    line-height:30px;
+
+    flex: 1 30%;
+
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+input{
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid darkgray;
+}
+input[type="submit"]{
+  background: linear-gradient(#FFDA63,#FFB940);
+  border: 0;
+  color: brown;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 0;
+}
+input[type="submit"]:hover{
+  opacity: 1;
+}
+input[type="submit"]:active{
+  transform: scale(0.95);
+}
+input[class="Update"]{
+  background: linear-gradient(#FFDA63,#FFB940);
+  border: 0;
+  color: red;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.boton{
+  padding: 10px;
+  margin-left: 50%;
+  margin-bottom: 0;
+  text-decoration: none;
+    cursor: pointer;
+     opacity: 0.8;
+    font-size: 20px;
+    color: brown;
+    border-radius: 20px;
+      background: linear-gradient(#FFDA63,#FFB940);
+     border:0;
+    transform: scale(0.95);
+
+}
+.boton:hover{
+    opacity: 1;
+  }
+
+
+@media screen and (max-width: 800px) {
+
+  #filtro-home {
+    flex: 1;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  form{
+      width: 95%;
+    }
+    .boton{
+      width: 95%;
+    }
+    footer{
+      width: 70%;
+    }
+    nav{
+      width: 100%;
+    }
+    .boton{
+      width: 30%;
+    }
+  .menu-der {
+    flex: .5;
+  }
+
+  #bars {
+    flex: 1;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .menu-palabras {
+    display: none;
+  }
+
+}
