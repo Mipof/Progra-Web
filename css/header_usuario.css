@@ -95,17 +95,17 @@ header {
 }
 
 .button {
-  padding: 4px;ñ
+  padding: 4px;
   border: 1px solid #D5D5D5;
   border-radius: 3px;
 }
 
-#ingresar {
+#cuenta {
   background-color: #EEE;
   border: 1px solid #D5D5D5;
 }
 
-#registrar {
+#logoff {
   color: #FFF;
   background-color: #6CC644;
   border: 1px solid #5AAD35;

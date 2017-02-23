@@ -3,29 +3,24 @@
   padding: 0;
   border: 0;
 }
-
 body {
   background: #FFF;
   color: #67727A;
   font-family: 'Alegreya', sans-serif;
   font-size: 85%;
 }
-
 main {
   width: 100%;
   margin: 5%;
   display: flex;
   justify-content: center;
 }
-
 .titulo {
   width: 100%;
 }
-
 h3 {
   text-align: center;
 }
-
 .agregar-producto {
   width: 100%;
   max-width: 600px;
@@ -36,17 +31,14 @@ h3 {
   display: flex;
   flex-direction: column;
 }
-
 .campo {
   margin-top: 20px;
   display: flex;
 }
-
 .campo label {
   flex: 1;
   font-weight: bold;
 }
-
 .campo input, .campo button, .campo select {
   flex: 2;
   max-width: 400px;
@@ -56,49 +48,39 @@ h3 {
   padding-left: 4px;
   margin-left: 10px;
 }
-
 .detalles-tecnicos {
     margin-top: 15px;
 }
-
 .detalles-tecnicos input {
   border-radius: 5px;
   padding-left: 4px;
 }
-
 .tabla {
   background-color: #FFF;
   width: 80%;
   border-radius: 5px;
 }
-
 .tabla td {
   padding: 5px;
   border-radius: 10px;
   text-align: center;
 }
-
 .especificacion {
   box-shadow: 0 0 5px;
   text-align: center;
 }
-
-
 @media screen and (max-width: 450px) {
   .tabla, .tabla tr, .tabla td, tbody {
     display: block;
   }
-
   .tabla tr td {
     position: relative;;
     padding-left: 20%;
     text-align: left;
   }
-
   .tabla tr td::before {
     position: absolute;
   }
-
   #otro-producto article {
     display: block;
     position: relative;
