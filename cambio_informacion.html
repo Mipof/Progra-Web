@@ -1,83 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nexo</title>
-    <link rel="stylesheet" href="css/cambio_informacion.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  </head>
-<body>
-
-    <header>
-      <div class="header-principal">
-        <!-- Menu izquierdo-->
-        <nav class="menu-izq">
-
-          <ul class="fa-ul" id="filtro-home">
-            <li><a class="fa-li fa fa-filter" id="desplegar"></a></li>
-            <li><a class="fa-li fa fa-home" id="home" href="#"></a></li>
-          </ul>
-
-          <ul class="menu-palabras">
-            <li><a href="#"id="filtro">Departamento</a></li>
-            <li><a href="#">Inicio</a></li>
-          </ul>
-        </nav>
-        <!-- Seccion de busqueda -->
-        <form action="index.html" method="post" class="seccion-busqueda">
-            <img src="images/logo.jpg" alt="Nexo">
-            <input type="search" name="" value="" placeholder="Buscar nexo">
-        </form>
-        <!-- Menu de login,registro e informacion -->
-        <nav class="menu-der">
-          <ul class="fa-ul" id="bars">
-                <li><a class="fa fa-bars" id="desplegar"></a></li>
-          </ul>
-
-          <ul class="menu-palabras">
-            <li><a href="#" class="button" id="ingresar">Ingresar</a></li>
-            <li><a href="#" class="button" id="registrar">Registrate</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-<!-- Fin del header -->
-    <main>
-      <section id="cuerpo" class="item">
-     </section>
-     <aside class="item">
-       <form action="" class="formulario">
-         <h2 class="form_titulo">Modificar perfil</h2>
-         <div class="contenedor_input">
-           <input type="text" placeholder="Nombres" name="nombre" class="input-48" required>
-          	<input class="Update" type="submit" value="Actualizar">
-           <input type="text" placeholder="Apellidos" name="apellidos" class="input-48" 
-           required>
-           <input class="Update" type="submit" value="Actualizar">
-           <input type="email" placeholder="Correo" name="correo" class="input-48" required>
-           <input class="Update" type="submit" value="Actualizar">
-         <input type="text" placeholder="Nombre de la empresa" name="empresa" class="input-48">
-         <input class="Update" type="submit" value="Actualizar">
-         <input type="text" placeholder="Telefono" name="telefono" class="input-48" required>
-         <input class="Update" type="submit" value="Actualizar">
-         <input type="text" placeholder="Direccion" name="direccion" class="input-48" required>
-         <input class="Update" type="submit" value="Actualizar">
-         <input type="password" placeholder="Contraseña" name="contraseña" class="input-48" required>
-         <input class="Update" type="submit" value="Actualizar">
-       </form>
-     </div>
-     </aside>
-
-
-     </aside>
-<!-- Fin del producto -->
-
-<!-- Fin de detalles tecnicos -->
-
-<!-- Fin de detalles de empresa -->
-
-    </main>
-
-  </body>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Nexo</title>
+	    <link rel="stylesheet" href="css/cambio_informacion.css">
+	    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  	</head>
+	<body>
+    	<header>
+      		<div class="header-principal">
+        	<!-- Menu izquierdo-->
+        		<nav class="menu-izq">
+	          		<ul class="fa-ul" id="filtro-home">
+	            		<li><a class="fa-li fa fa-filter" id="desplegar"></a></li>
+            			<li><a class="fa-li fa fa-home" id="home" href="#"></a></li>
+          			</ul>
+          			<ul class="menu-palabras">
+			            <li><a href="#"id="filtro">Departamento</a></li>
+            			<li><a href="#">Inicio</a></li>
+          			</ul>
+        		</nav>
+        		<!-- Seccion de busqueda -->
+        		<form action="index.html" method="post" class="seccion-busqueda">
+	            	<img src="images/logo.jpg" alt="Nexo">
+            		<input type="search" name="" value="" placeholder="Buscar nexo">
+        		</form>
+        		<!-- Menu de login,registro e informacion -->
+        		<nav class="menu-der">
+	          		<ul class="fa-ul" id="bars">
+	                	<li><a class="fa fa-bars" id="desplegar"></a></li>
+          			</ul>
+          			<ul class="menu-palabras">
+	            		<li><a href="#" class="button" id="ingresar">Ingresar</a></li>
+            			<li><a href="#" class="button" id="registrar">Registrate</a></li>
+	          		</ul>
+        		</nav>
+      		</div>
+    	</header> <!-- Fin del header -->
+    	<main>
+     		<aside class="item">
+	       		<form action="" class="formulario">
+         			<h2 class="form_titulo">Modificar perfil</h2>
+	           		<div class="cambios" id="nombres">
+	           			<input type="text" placeholder="Nombres" name="nombre" class="input-48">
+          				<input class="Update" type="submit" value="Actualizar">
+          			</div>
+					<div class="cambios" id="apellidos">
+           				<input type="text" placeholder="Apellidos" name="apellidos" class="input-48">
+           				<input class="Update" type="submit" value="Actualizar">
+           			</div>
+					<div class="cambios" id="correo">
+		        		<input type="email" placeholder="Correo" name="correo" class="input-48">
+           				<input class="Update" type="submit" value="Actualizar">
+           			</div>
+					<div class="cambios" id="nombEmpresa">
+         				<input type="text" placeholder="Nombre de la empresa" name="empresa" class="input-48">
+         				<input class="Update" type="submit" value="Actualizar">
+         			</div>
+					<div class="cambios" id="telefono">
+         				<input type="text" placeholder="Telefono" name="telefono" class="input-48">
+         				<input class="Update" type="submit" value="Actualizar">
+         			</div>
+					<div class="cambios" id="direccion">
+         				<input type="text" placeholder="Direccion" name="direccion" class="input-48">
+         				<input class="Update" type="submit" value="Actualizar">
+         			</div>
+					<div class="cambios" id="password">
+         				<input type="password" placeholder="Contraseña" name="contraseña" class="input-48">
+         				<input class="Update" type="submit" value="Actualizar">
+         			</div>
+     			</form>
+     		</aside>
+			<!-- Fin del producto -->
+			<!-- Fin de detalles tecnicos -->
+			<!-- Fin de detalles de empresa -->
+   		</main>
+  	</body>
 </html>
