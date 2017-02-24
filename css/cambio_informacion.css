@@ -1,0 +1,122 @@
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+.producto, .detalles-tecnicos, .mas-productos, .detalle-empresa {
+  max-width: 1200px;
+  min-width: 320px;
+}
+#otro-producto {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+.formulario{
+  color: blue;
+  margin: auto;
+  width: 90%;
+  max-width: 500px;
+  background: #FAFAFA;
+  padding: 50px;
+  border: 1px;
+  border-radius: 7px;
+}
+.form_titulo{
+background: linear-gradient(#FFDA63,#FFB940);
+  color:brown;
+  padding: 20px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  border-top-left-radius:7px;
+  border-top-right-radius: 7px;
+  border-bottom: 5px solid crimson;
+}
+.cambios{
+  padding: 3px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.input-48{
+  width: 48%;
+}
+.input-100{
+  width: 100%;
+}
+.btn_link{
+  width: 100%;
+  margin: 7px;
+  text-align: center;
+  font-size: 14px;
+}
+#cuerpo{
+  background: white;
+}
+footer{
+    background-color:white;
+    width: 100%;
+    max-width: 1280px;
+}
+aside{
+    background-color:white;
+    height:30px;
+    line-height:30px;
+    flex: 1 30%;
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+input{
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid darkgray;
+}
+input[type="submit"]{
+  background: linear-gradient(#FFDA63,#FFB940);
+  border: 0;
+  color: brown;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 0;
+}
+input[type="submit"]:hover{
+  opacity: 1;
+}
+input[type="submit"]:active{
+  transform: scale(0.95);
+}
+input[class="Update"]{
+  background: linear-gradient(#FFDA63,#FFB940);
+  border: 0;
+  color: red;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.boton{
+  padding: 10px;
+  margin-left: 50%;
+  margin-bottom: 0;
+  text-decoration: none;
+    cursor: pointer;
+     opacity: 0.8;
+    font-size: 20px;
+    color: brown;
+    border-radius: 20px;
+      background: linear-gradient(#FFDA63,#FFB940);
+     border:0;
+    transform: scale(0.95);
+}
+.boton:hover{
+  opacity: 1;
+}
