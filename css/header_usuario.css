@@ -101,14 +101,18 @@ header {
 }
 
 #cuenta {
-  background-color: #EEE;
-  border: 1px solid #D5D5D5;
+  font-size: 70%;
+  background-color: #FFF;
+  background-color: #6CC644;
+  border: 1px solid #5AAD35;
+
 }
 
 #logoff {
+  font-size: 70%;
   color: #FFF;
-  background-color: #6CC644;
-  border: 1px solid #5AAD35;
+  background-color: #d50000;
+  border: 1px solid #D5D5D5;
 }
 
 a:hover#registrar {
