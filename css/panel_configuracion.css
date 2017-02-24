@@ -1,0 +1,98 @@
+h1{
+	font-size:15px;
+	padding-left:5%;
+	margin:0 1%;
+	font-family:"Times New Roman", Times, serif;
+	font-variant:small-caps;
+}
+h2{
+	margin-right: 10px;
+	order:3;
+	font-size:15px;
+	margin:auto;
+	padding-right:4%;			
+}
+h3{
+	margin:15px 5px;
+	flex:1;	
+	font-weight:bold;
+	font-variant:small-caps;
+}
+h4{
+	font-size:10px;
+	margin-top:10px;
+}
+
+.header h1{
+	margin:auto;
+	order:1;
+	flex:1;	
+}
+
+.header{
+	display:flex;	
+	background-color: black;
+	height:100px;
+	color:white;
+}
+.seccion_busqueda{	
+	display:flex;
+	order:2;
+	flex:3;
+	padding-right:25%;
+	padding-left:10%;
+}
+.busqueda{
+	display:flex;
+	margin:auto;
+	flex:2;
+}
+.busqueda input{
+	flex:1;
+}
+.menusitos{
+	display:flex;
+	color:white;
+	background-color:black;
+	justify-content:flex-end;
+}
+
+.menu_cuenta{
+	display:flex;
+	flex-direction:column;
+}
+.categorias{	
+	width:350px;
+	height:100px;
+	margin: auto;
+	display:flex;
+	font-family:"Times New Roman", Times, serif;
+	border-bottom-width: thin;
+	border-bottom-style: double;
+	/*border-width: thin;
+	border-style: double;
+	border-width: 4px;
+	border-radius: 5px;*/
+}
+.sub_categorias{
+	flex:1;
+	font-size:13px;
+	color:blue;
+	font-family: helvetica;
+}
+.pie_pagina{
+	display:flex;
+	background-color:black;
+	padding-bottom:100px;
+	flex:1;
+	margin:auto;
+}
+.informacion_general{
+	display:flex;
+	margin:auto;
+	flex-direction:column;
+}
+h5{
+	color:white;
+	flex:1;
+}
