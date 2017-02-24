@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Agregar producto</title>
+      <link rel="stylesheet" href="css/header_usuario.css">
+      <link rel="stylesheet" href="css/alta-producto.css">
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    </head>
+    <body>
+      <header> <!--header usuario-->
+        <div class="header-principal"> <!-- Menu izquierdo-->
+          <nav class="menu-izq">
+            <ul class="fa-ul" id="filtro-home">
+              <li><a class="fa-li fa fa-filter" id="desplegar"></a></li>
+              <li><a class="fa-li fa fa-home" id="home" href="#"></a></li>
+            </ul>
+            <ul class="menu-palabras">
+              <li><a href="#"id="filtro">Departamento</a></li>
+              <li><a href="#">Inicio</a></li>
+            </ul>
+          </nav>
+          <!-- Seccion de busqueda -->
+          <form action="index.html" method="post" class="seccion-busqueda">
+            <img src="images/logo.jpg" alt="Nexo">
+            <input type="search" name="" value="" placeholder="Buscar nexo">
+          </form>
+          <!-- Menu de login,registro e informacion -->
+          <nav class="menu-der">
+            <ul class="fa-ul" id="bars">
+              <li><a class="fa fa-bars" id="desplegar"></a></li>
+            </ul>
+            <ul class="menu-palabras">
+              <li><a href="#" class="button" id="cuenta">Cuenta</a></li>
+              <li><a href="#" class="button" id="logoff">Cerrar sesion</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header> <!-- Fin del header -->
+      <main>
+        <form class="agregar-producto" action="index.html" method="post">
+          <div class="titulo">
+            <h3>Agregar producto</h3>
+          </div>
+          <div class="campo">
+            <label for="Foto-producto">Foto del producto:</label>
+            <button type="button" name="button">Imagen...</button>
+          </div>
+          <div class="campo">
+            <label for="nombre-producto">Nombre del producto:</label>
+            <input type="text" name="nombre-producto" value="">
+          </div>
+          <div class="campo">
+            <label for="precio-producto">Precio del producto:</label>
+            <input type="text" name="precio-producto" value="">
+          </div>
+          <div class="campo">
+            <label for="tipo-producto">Nombre del producto:</label>
+            <select name="tipo-producto">
+              <option value="1"> Electronico </option>
+              <option value="2"> Computacion </option>
+              <option value="3"> Hogar </option>
+              <option value="4"> Otro </option>
+            </select>
+          </div>
+          <div class="detalles-tecnicos">
+            <table class="tabla">
+              <tbody>
+                <tr>
+                  <td class="especificacion"><label for="caracteristica-1">Something</label></td>
+                  <td><input type="text" name="caracteristica-1" id="caracteristica-1" value="" placeholder="Caracteristica"></td>
+                  <td class="especificacion"><label for="caracteristica-2">Something</label></td>
+                  <td><input type="text" name="caracteristica-2" id="caracteristica-2" value="" placeholder="Caracteristica"></td>
+                </tr>
+                <tr>
+                  <td class="especificacion"><label for="caracteristica-3">Something</label></td>
+                  <td><input type="text" name="caracteristica-3" id="caracteristica-3"value="" placeholder="Caracteristica"></td>
+                  <td class="especificacion"><label for="caracteristica-4">Something</label></td>
+                  <td><input type="text" name="caracteristica-4" id="caracteristica-4" value="" placeholder="Caracteristica"></td>
+                </tr>
+                <tr>
+                  <td class="especificacion"><label for="caracteristica-5">Something</label></td>
+                  <td><input type="text" name="caracteristica-5" id="caracteristica-5" value="" placeholder="Caracteristica"></td>
+                  <td class="especificacion"><label for="caracteristica-6">Something</label></td>
+                  <td><input type="text" name="caracteristica-6" id="caracteristica-6" value="" placeholder="Caracteristica"></td>
+                </tr>
+                <tr>
+                  <td class="especificacion"><label for="caracteristica-7">Something</label></td>
+                  <td><input type="text" name="caracteristica-7" id="caracteristica-7" value="" placeholder="Caracteristica"></td>
+                  <td class="especificacion"><label for="caracteristica-8">Something</label></td>
+                  <td><input type="text" name="caracteristica-8" id="caracteristica-8" value="" placeholder="Caracteristica"></td>
+                </tr>
+                <tr>
+                  <td class="especificacion"><label for="caracteristica-9">Something</label></td>
+                  <td><input type="text" name="caracteristica-9" id="caracteristica-9" value="" placeholder="Caracteristica"></td>
+                  <td class="especificacion"><label for="caracteristica-10">Something</label></td>
+                  <td><input type="text" name="caracteristica-10" id="caracteristica-10" value="" placeholder="Caracteristica"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </form>
+      </main>
+    </body>
+  </html>

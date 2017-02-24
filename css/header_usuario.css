@@ -61,7 +61,7 @@ header {
 
 #filtro-home {
   display: none;
-  width 100px;
+  width: 100px;
   height: 40px;
 }
 
@@ -114,7 +114,6 @@ header {
 a:hover#registrar {
   color: gray;
 }
-ñ
 #bars {
   display: none;
 }

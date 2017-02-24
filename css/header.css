@@ -8,7 +8,7 @@ body {
   background: #FFF;
   color: #67727A;
   font-family: 'Alegreya', sans-serif;
-  font-size: 65%;
+  font-size: 75%;
 }
 
 h1 {
@@ -61,7 +61,7 @@ header {
 
 #filtro-home {
   display: none;
-  width 100px;
+  width: 100px;
   height: 40px;
 }
 
@@ -95,7 +95,7 @@ header {
 }
 
 .button {
-  padding: 4px;ñ
+  padding: 4px;
   border: 1px solid #D5D5D5;
   border-radius: 3px;
 }
@@ -114,7 +114,7 @@ header {
 a:hover#registrar {
   color: gray;
 }
-ñ
+
 #bars {
   display: none;
 }
@@ -144,6 +144,10 @@ nav ul li a:hover {
 
 
 @media screen and (max-width: 800px) {
+
+  body {
+    font-size: 100%;
+  }
 
   #filtro-home {
     flex: 1;
