@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #FFF;
+  color: #67727A;
+  font-family: 'Alegreya', sans-serif;
+  font-size: 85%;
+}
+
+h1 {
+  text-align: center;
+  padding: 2%;
+}
+
+h3 {
+  padding: 2%;
+}
+
+main {
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  width: 80%;
+  max-width: 1200px;
+  min-width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+.producto {
+  width: 100%;
+  max-width: 800px;
+  min-width: 320px;
+  max-height: 300px;
+  min-height: 200px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #FAFAFA;
+  border: 1px solid #E0E0E0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.figure-empresa {
+  margin: 15px 0 0 0;
+}
+
+.figure-empresa img {
+  width: 100%;
+  height: 100%;
+  max-width: 32px;
+  max-height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.figure-empresa figcaption {
+  color: black;
+  font-weight: 500;
+}
+
+.producto figure {
+  flex: 1;
+  display: flex;
+  padding: 10px;
+}
+
+.foto-principal {
+  width: 100%;
+  height: 100%;
+  max-width: 250px;
+  max-height: 250px;
+  min-width: 150px;
+  min-height: 150px;
+}
+
+.producto figure figcaption {
+  flex: 1;
+  padding: 5%;
+}
+
+.producto figure figcaption ul{
+  list-style: initial;
+}
+
+.precio-producto {
+  color: green;
+  font-weight: 400;
+}
+
+aside {
+  width: 100%;
+  margin: 10px 60px;
+  padding: 20px;
+  max-width: 200px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.publicidad {
+  background-color: #FAFAFA;
+  border: 1px solid #E0E0E0;
+  margin: 5px 0;
+}
+
+.publicidad img {
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  padding: 15px;
+}
+
+.publicidad figcaption {
+  padding: 10px;
+  font-size: 75%;
+}
+
+@media screen and (max-width: 800px) {
+
+  .foto-principal {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .producto figure figcaption {
+    font-size: 75%;
+  }
+
+  aside {
+    display: none;
+  }
+
+}

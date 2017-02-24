@@ -7,7 +7,7 @@ body {
   background: #FFF;
   color: #67727A;
   font-family: 'Alegreya', sans-serif;
-  font-size: 85%;
+  font-size: 100%;
 }
 main {
   width: 100%;
@@ -69,12 +69,32 @@ h3 {
   box-shadow: 0 0 5px;
   text-align: center;
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 800px) {
+  * {
+    font-size: 100%;
+  }
+
+  .agregar-producto {
+    margin-right: 10%;
+  }
+
+  .campo input, .campo button, .campo select {
+    margin-right: 10%;
+  }
+
+  .tabla tbody tr td input {
+    margin-right: 20%;
+    max-width: 130px;
+  }
+
+}
+@media screen and (max-width: 600px) {
   .tabla, .tabla tr, .tabla td, tbody {
     display: block;
   }
   .tabla tr td {
-    position: relative;;
+    position: relative;
     padding-left: 20%;
     text-align: left;
   }
