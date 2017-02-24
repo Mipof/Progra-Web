@@ -7,6 +7,7 @@
             <link rel="stylesheet" href="css/terminos.css">
             <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
             <link rel="stylesheet" href="css/header_usuario.css">
+            <link rel="stylesheet" href="css/footer.css">
             <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
             <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -27,35 +28,34 @@
             <meta name="theme-color" content="#ffffff">
         </head>
         <body>
-            <header> <!--header general-->
-                <div class="header-principal"> <!-- Menu izquierdo-->
-                    <nav class="menu-izq">
-                        <ul class="fa-ul" id="filtro-home">
-                        <li><a class="fa-li fa fa-filter" id="desplegar"></a></li>
-                        <li><a class="fa-li fa fa-home" id="home" href="index1_usuario.html"></a></li>
-                        </ul>
-                        <ul class="menu-palabras">
-                        <li><a href="#"id="filtro">Departamento</a></li>
-                        <li><a href="index1_usuario.html">Inicio</a></li>
-                        </ul>
-                    </nav>
-                    <!-- Seccion de busqueda -->
-                    <form action="index.html" method="post" class="seccion-busqueda">
-                        <img src="images/logo.jpg" alt="Nexo">
-                        <input type="search" name="" value="" placeholder="Buscar nexo">
-                    </form>
-                    <!-- Menu de login,registro e informacion -->
-                    <nav class="menu-der">
-                        <ul class="fa-ul" id="bars">
-                            <li><a class="fa fa-bars" id="desplegar"></a></li>
-                        </ul>
-                        <ul class="menu-palabras">
-                            <li><a href="mi_perfil.html" class="button" id="Cuenta">Cuenta</a></li>
-                            <li><a href="index1.html" class="button" id="logoff">Cerrar sesion</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header> <!-- Fin del header -->
+            <header> <!--header usuario-->
+        <div class="header-principal"> <!-- Menu izquierdo-->
+          <nav class="menu-izq">
+            <ul class="fa-ul" id="filtro-home">
+              <li><a class="fa-li fa fa-home" id="home" href="index1_usuario.html"></a></li>
+            </ul>
+            <ul class="menu-palabras">
+              <li><a href="index1_usuario.html">Inicio</a></li>
+            </ul>
+          </nav>
+          <!-- Seccion de busqueda -->
+          <form action="index.html" method="post" class="seccion-busqueda">
+            <img src="images/logo.jpg" alt="Nexo">
+            <input type="search" name="" value="" placeholder="Buscar nexo">
+          </form>
+          <!-- Menu de login,registro e informacion -->
+          <nav class="menu-der">
+            <ul class="fa-ul" id="bars">
+              <li><a href="mi_perfil.html" class="button" id="cuenta">C</a></li>
+              <li><a href="index1.html" class="button" id="logoff">L</a></li>
+            </ul>
+            <ul class="menu-palabras">
+              <li><a href="mi_perfil.html" class="button" id="cuenta">Cuenta</a></li>
+              <li><a href="index1.html" class="button" id="logoff">Cerrar sesion</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header> <!-- Fin del header -->
             <div class="body">
                 <div class="copyright">
                     <h2>Términos legales</h2>
@@ -265,5 +265,16 @@
                     <p>ASM nexo, sus editores, empleados, funcionarios y consultores no intervienen ni reciben comisiones sobre las transacciones que realizan aquellos que se anuncian en esta web con terceros, ni son responsables de la información o contenido proporcionado por los anunciantes, ni por los errores u omisiones de impresión, tipografía, fotografía, entre otros, que estos incluyan, ni se dedican de manera alguna a la comercialización al mayoreo o menudeo de cualquier clase de bienes o servicios. ASM nexo, sus editores, empleados, funcionarios y consultores se reservan el derecho de no publicar ni aceptar publicidad que pueda afectar a esta web, a los anuncios en ésta o a los fines que persigue, así como el derecho de suspender o aplazar la publicación de cualquiera de estos anuncios.</p>
                 </div>
              </div>
+             <!-- footer usuarios -->
+      <footer>
+        <nav>
+          <ul class="fa-ul">
+            <li><a href="faq_usuario.html">FAQS</a></li>
+            <li><a href="terminos_usuario.html">Terminos y condiciones</a></li>
+            <li><a class="fa-li fa fa-facebook" href="#" id="face"></a></li>
+            <li><a class="fa-li fa fa-twitter" href="#" id="twit"></a></li>
+          </ul>
+        </nav>
+    </footer> <!--fin footer -->
         </body>
     </html>

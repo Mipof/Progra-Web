@@ -8,6 +8,7 @@
       <link rel="stylesheet" href="css/header_usuario.css">
       <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
       <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/footer.css">
       <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
       <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
       <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -26,155 +27,174 @@
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
       <meta name="theme-color" content="#ffffff">
   </head>
-
   <body>
-
     <header> <!--header usuario-->
-       <div class="header-principal"> <!-- Menu izquierdo-->
-         <nav class="menu-izq">
-           <ul class="fa-ul" id="filtro-home">
-             <li><a class="fa-li fa fa-filter" id="desplegar"></a></li>
-             <li><a class="fa-li fa fa-home" id="home" href="#"></a></li>
-           </ul>
-           <ul class="menu-palabras">
-             <li><a href="#"id="filtro">Departamento</a></li>
-             <li><a href="#">Inicio</a></li>
-           </ul>
-         </nav>
-         <!-- Seccion de busqueda -->
-         <form action="index.html" method="post" class="seccion-busqueda">
-           <img src="images/logo.jpg" alt="Nexo">
-           <input type="search" name="" value="" placeholder="Buscar nexo">
-         </form>
-         <!-- Menu de login,registro e informacion -->
-         <nav class="menu-der">
-           <ul class="fa-ul" id="bars">
-             <li><a class="fa fa-bars" id="desplegar"></a></li>
-           </ul>
-           <ul class="menu-palabras">
-             <li><a href="#" class="button" id="cuenta">Cuenta</a></li>
-             <li><a href="#" class="button" id="logoff">Cerrar sesion</a></li>
-           </ul>
-         </nav>
-       </div>
-     </header> <!-- Fin del header -->
+        <div class="header-principal"> <!-- Menu izquierdo-->
+          <nav class="menu-izq">
+            <ul class="fa-ul" id="filtro-home">
+              <li><a class="fa-li fa fa-home" id="home" href="index1_usuario.html"></a></li>
+            </ul>
+            <ul class="menu-palabras">
+              <li><a href="index1_usuario.html">Inicio</a></li>
+            </ul>
+          </nav>
+          <!-- Seccion de busqueda -->
+          <form action="index.html" method="post" class="seccion-busqueda">
+            <img src="images/logo.jpg" alt="Nexo">
+            <input type="search" name="" value="" placeholder="Buscar nexo">
+          </form>
+          <!-- Menu de login,registro e informacion -->
+          <nav class="menu-der">
+            <ul class="fa-ul" id="bars">
+              <li><a href="mi_perfil.html" class="button" id="cuenta">C</a></li>
+              <li><a href="index1.html" class="button" id="logoff">L</a></li>
+            </ul>
+            <ul class="menu-palabras">
+              <li><a href="mi_perfil.html" class="button" id="cuenta">Cuenta</a></li>
+              <li><a href="index1.html" class="button" id="logoff">Cerrar sesion</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header> <!-- Fin del header -->
     <main>
       <div class="contenedor">
         <section>
           <article class="producto">
-            <figure class="figure-empresa">
-              <img src="images/nexo.ico" alt="">
-              <figcaption><h2>Nombre de la empresa</h2></figcaption>
-            </figure>
-            <figure class="figure-producto">
-              <img class="foto-principal" src="images/foto-3.jpg" alt="foto-producto">
-              <figcaption>
-                <h1>Titulo del producto</h1><br>
-                <h3>Precio del producto: <span class="precio-producto">$10,000</span></h3>
-                <ul class="detalles-generales">
-                  <li>Windows 10 home</li>
-                  <li>Processor: A8-7410 QC Carrizo L</li>
-                  <li>1 TB</li>
-                  <li>8 GB RAM</li>
-                </ul>
-              </figcaption>
-              <button id="eliminar" type="button" name="button">X</button>
-            </figure>
+            <a href="producto_administrador.html">
+              <figure class="figure-empresa">
+                <img src="images/nexo.ico" alt="">
+                <figcaption><h2>Nombre de la empresa</h2></figcaption>
+              </figure>
+              <figure class="figure-producto">
+                <img class="foto-principal" src="images/foto-3.jpg" alt="foto-producto">
+                <figcaption>
+                  <h1>Titulo del producto</h1><br>
+                  <h3>Precio del producto: <span class="precio-producto">$10,000</span></h3>
+                  <ul class="detalles-generales">
+                    <li>Windows 10 home</li>
+                    <li>Processor: A8-7410 QC Carrizo L</li>
+                    <li>1 TB</li>
+                    <li>8 GB RAM</li>
+                  </ul>
+                </figcaption>
+                <button id="eliminar" type="button" name="button">X</button>
+              </figure>
+            </a>
           </article>
 
           <article class="producto">
-            <figure class="figure-empresa">
-              <img src="images/nexo.ico" alt="">
-              <figcaption><h2>Nombre de la empresa</h2></figcaption>
-            </figure>
-            <figure class="figure-producto">
-              <img class="foto-principal" src="images/foto-3.jpg" alt="foto-producto">
-              <figcaption>
-                <h1>Titulo del producto</h1><br>
-                <h3>Precio del producto: <span class="precio-producto">$10,000</span></h3>
-                <ul class="detalles-generales">
-                  <li>Windows 10 home</li>
-                  <li>Processor: A8-7410 QC Carrizo L</li>
-                  <li>1 TB</li>
-                  <li>8 GB RAM</li>
-                </ul>
-              </figcaption>
-              <button id="eliminar" type="button" name="button">X</button>
-            </figure>
+            <a href="producto_administrador.html">
+              <figure class="figure-empresa">
+                <img src="images/nexo.ico" alt="">
+                <figcaption><h2>Nombre de la empresa</h2></figcaption>
+              </figure>
+              <figure class="figure-producto">
+                <img class="foto-principal" src="images/foto-3.jpg" alt="foto-producto">
+                <figcaption>
+                  <h1>Titulo del producto</h1><br>
+                  <h3>Precio del producto: <span class="precio-producto">$10,000</span></h3>
+                  <ul class="detalles-generales">
+                    <li>Windows 10 home</li>
+                    <li>Processor: A8-7410 QC Carrizo L</li>
+                    <li>1 TB</li>
+                    <li>8 GB RAM</li>
+                  </ul>
+                </figcaption>
+                <button id="eliminar" type="button" name="button">X</button>
+              </figure>
+            </a>
           </article>
 
           <article class="producto">
-            <figure class="figure-empresa">
-              <img src="images/nexo.ico" alt="">
-              <figcaption><h2>Nombre de la empresa</h2></figcaption>
-            </figure>
-            <figure class="figure-producto">
-              <img class="foto-principal" src="images/foto-3.jpg" alt="foto-producto">
-              <figcaption>
-                <h1>Titulo del producto</h1><br>
-                <h3>Precio del producto: <span class="precio-producto">$10,000</span></h3>
-                <ul class="detalles-generales">
-                  <li>Windows 10 home</li>
-                  <li>Processor: A8-7410 QC Carrizo L</li>
-                  <li>1 TB</li>
-                  <li>8 GB RAM</li>
-                </ul>
-              </figcaption>
-              <button id="eliminar" type="button" name="button">X</button>
-            </figure>
+            <a href="producto_administrador.html">
+              <figure class="figure-empresa">
+                <img src="images/nexo.ico" alt="">
+                <figcaption><h2>Nombre de la empresa</h2></figcaption>
+              </figure>
+              <figure class="figure-producto">
+                <img class="foto-principal" src="images/foto-3.jpg" alt="foto-producto">
+                <figcaption>
+                  <h1>Titulo del producto</h1><br>
+                  <h3>Precio del producto: <span class="precio-producto">$10,000</span></h3>
+                  <ul class="detalles-generales">
+                    <li>Windows 10 home</li>
+                    <li>Processor: A8-7410 QC Carrizo L</li>
+                    <li>1 TB</li>
+                    <li>8 GB RAM</li>
+                  </ul>
+                </figcaption>
+                <button id="eliminar" type="button" name="button">X</button>
+              </figure>
+            </a>
           </article>
 
           <article class="producto">
-            <figure class="figure-empresa">
-              <img src="images/nexo.ico" alt="">
-              <figcaption><h2>Nombre de la empresa</h2></figcaption>
-            </figure>
-            <figure class="figure-producto">
-              <img class="foto-principal" src="images/foto-3.jpg" alt="foto-producto">
-              <figcaption>
-                <h1>Titulo del producto</h1><br>
-                <h3>Precio del producto: <span class="precio-producto">$10,000</span></h3>
-                <ul class="detalles-generales">
-                  <li>Windows 10 home</li>
-                  <li>Processor: A8-7410 QC Carrizo L</li>
-                  <li>1 TB</li>
-                  <li>8 GB RAM</li>
-                </ul>
-              </figcaption>
-              <button id="eliminar" type="button" name="button">X</button>
-            </figure>
+            <a href="producto_administrador.html">
+              <figure class="figure-empresa">
+                <img src="images/nexo.ico" alt="">
+                <figcaption><h2>Nombre de la empresa</h2></figcaption>
+              </figure>
+              <figure class="figure-producto">
+                <img class="foto-principal" src="images/foto-3.jpg" alt="foto-producto">
+                <figcaption>
+                  <h1>Titulo del producto</h1><br>
+                  <h3>Precio del producto: <span class="precio-producto">$10,000</span></h3>
+                  <ul class="detalles-generales">
+                    <li>Windows 10 home</li>
+                    <li>Processor: A8-7410 QC Carrizo L</li>
+                    <li>1 TB</li>
+                    <li>8 GB RAM</li>
+                  </ul>
+                </figcaption>
+                <button id="eliminar" type="button" name="button">X</button>
+              </figure>
+            </a>
           </article>
-        </section>
   <!-- Fin del producto -->
         <aside>
           <h3>Publicidad</h3>
           <article class="publicidad">
-            <figure>
-              <button id="eliminar" type="button" name="button">X</button>
-              <img src="images/foto-3.jpg" alt="foto-producto">
-              <figcaption><h2>Ke oferton! xD</h2></figcaption>
-            </figure>
+            <a href="producto_administrador.html">
+              <figure>
+                <button id="eliminar" type="button" name="button">X</button>
+                <img src="images/foto-3.jpg" alt="foto-producto">
+                <figcaption><h2>Ke oferton! xD</h2></figcaption>
+              </figure>
+            </a>
           </article>
 
           <article class="publicidad">
-            <figure>
-              <button id="eliminar" type="button" name="button">X</button>
-              <img src="images/foto-3.jpg" alt="foto-producto">
-              <figcaption><h2>Ke oferton! xD</h2></figcaption>
-            </figure>
+            <a href="producto_administrador.html">
+              <figure>
+                <button id="eliminar" type="button" name="button">X</button>
+                <img src="images/foto-3.jpg" alt="foto-producto">
+                <figcaption><h2>Ke oferton! xD</h2></figcaption>
+              </figure>
+            </a>
           </article>
 
           <article class="publicidad">
-            <figure>
-              <button id="eliminar" type="button" name="button">X</button>
-              <img src="images/foto-3.jpg" alt="foto-producto">
-              <figcaption><h2>Ke oferton! xD</h2></figcaption>
-            </figure>
+            <a href="producto_administrador.html">
+              <figure>
+                <button id="eliminar" type="button" name="button">X</button>
+                <img src="images/foto-3.jpg" alt="foto-producto">
+                <figcaption><h2>Ke oferton! xD</h2></figcaption>
+              </figure>
+            </a>
           </article>
         </aside>
       </div>
-
     </main>
-
+    <!-- footer usuarios -->
+      <footer>
+        <nav>
+          <ul class="fa-ul">
+            <li><a href="faq_usuario.html">FAQS</a></li>
+            <li><a href="terminos_usuario.html">Terminos y condiciones</a></li>
+            <li><a class="fa-li fa fa-facebook" href="#" id="face"></a></li>
+            <li><a class="fa-li fa fa-twitter" href="#" id="twit"></a></li>
+          </ul>
+        </nav>
+    </footer> <!--fin footer -->
   </body>
 </html>
