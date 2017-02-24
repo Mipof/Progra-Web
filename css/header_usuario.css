@@ -8,7 +8,7 @@ body {
   background: #FFF;
   color: #67727A;
   font-family: 'Alegreya', sans-serif;
-  font-size: 65%;
+  font-size: 75%;
 }
 
 h1 {
@@ -37,7 +37,6 @@ header {
 
 .header-principal {
   flex: 1;
-  max-width: 1200px;
   min-width: 340px;
   margin: 0 auto;
 
@@ -114,6 +113,7 @@ header {
 a:hover#registrar {
   color: gray;
 }
+
 #bars {
   display: none;
 }
@@ -144,6 +144,10 @@ nav ul li a:hover {
 
 @media screen and (max-width: 800px) {
 
+  body {
+    font-size: 100%;
+  }
+
   #filtro-home {
     flex: 1;
     font-size: 25px;
@@ -158,6 +162,7 @@ nav ul li a:hover {
     }
     footer{
       width: 70%;
+
     }
     nav{
       width: 100%;
@@ -170,7 +175,7 @@ nav ul li a:hover {
   }
 
   #bars {
-    flex: 1;
+    flex: 2;
     font-size: 25px;
     display: flex;
     justify-content: space-around;
@@ -179,5 +184,4 @@ nav ul li a:hover {
   .menu-palabras {
     display: none;
   }
-
 }

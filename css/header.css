@@ -37,7 +37,6 @@ header {
 
 .header-principal {
   flex: 1;
-  max-width: 1200px;
   min-width: 340px;
   margin: 0 auto;
 
@@ -163,6 +162,7 @@ nav ul li a:hover {
     }
     footer{
       width: 70%;
+
     }
     nav{
       width: 100%;
@@ -175,7 +175,7 @@ nav ul li a:hover {
   }
 
   #bars {
-    flex: 1;
+    flex: 2;
     font-size: 25px;
     display: flex;
     justify-content: space-around;
@@ -184,5 +184,4 @@ nav ul li a:hover {
   .menu-palabras {
     display: none;
   }
-
 }
