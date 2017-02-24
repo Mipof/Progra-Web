@@ -1,0 +1,119 @@
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+.producto, .detalles-tecnicos, .mas-productos, .detalle-empresa {
+  max-width: 1200px;
+  min-width: 320px;
+}
+#otro-producto {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+.formulario{
+  
+  margin: auto;
+  width: 90%;
+  max-width: 500px;
+  background: #FAFAFA;
+  padding: 50px;
+  border: 1px;
+  border-radius: 7px;
+}
+.form_titulo{
+background: linear-gradient(#FFDA63,#FFB940);
+  color:brown;
+  padding: 20px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  border-top-left-radius:7px;
+  border-top-right-radius: 7px;
+  border-bottom: 5px solid crimson;
+}
+.cambios{
+  padding: 3px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.input-48{
+  width: 48%;
+}
+.input-100{
+  width: 100%;
+}
+.btn_link{
+  width: 100%;
+  margin: 7px;
+  text-align: center;
+  font-size: 14px;
+}
+#cuerpo{
+  background: white;
+}
+footer{
+    background-color:white;
+    width: 100%;
+    max-width: 1280px;
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tabla {
+  background: #FAFAFA;
+  width: 80%;
+  border-spacing: 20px;
+}
+.tabla td {
+  padding: 5px;
+  border-radius: 5px;
+  text-align: left;
+  color: black;
+  margin: 10px;
+  font-size: 11px;
+}
+.informacion{
+  width: 80%;
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 10px auto;
+  padding: 20px;
+  background: #FAFAFA;
+  display: flex;
+  justify-content: center;
+}
+.info {
+  box-shadow: 0 0 5px;
+}
+#modificar_cuenta {
+  color: #FFF;
+  background-color: orange;
+  border: 1px solid #5AAD35;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 450px) {
+  .tabla, .tabla tr, .tabla td, tbody {
+    display: block;
+  }
+
+  .tabla tr td {
+    position: relative;;
+    padding-left: 20%;
+    text-align: left;
+  }
+
+  .tabla tr td::before {
+    position: absolute;
+  }
+
+  #otro-producto article {
+    display: block;
+    position: relative;
+  }
+}
