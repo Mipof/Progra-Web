@@ -66,6 +66,14 @@ main {
   font-weight: 400;
 }
 
+#eliminar {
+  padding: 5px 5px 2px 5px;
+  float: right;
+  background-color: #d50000;
+  color: white;
+  border-radius: 6px;
+}
+
 #otro-producto {
   width: 20%;
   text-align: center;

@@ -5,46 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nexo</title>
     <link rel="stylesheet" href="css/producto.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/header_usuario.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   </head>
 
   <body>
 
-    <header>
-      <div class="header-principal">
-        <!-- Menu izquierdo-->
-        <nav class="menu-izq">
-
-          <ul class="fa-ul" id="filtro-home">
-            <li><a class="fa-li fa fa-filter" id="desplegar"></a></li>
-            <li><a class="fa-li fa fa-home" id="home" href="#"></a></li>
-          </ul>
-
-          <ul class="menu-palabras">
-            <li><a id="filtro">Departamento</a></li>
-            <li><a href="#">Inicio</a></li>
-          </ul>
-        </nav>
-        <!-- Seccion de busqueda -->
-        <form action="index.html" method="post" class="seccion-busqueda">
-            <img src="images/logo.jpg" alt="Nexo">
-            <input type="search" name="" value="" placeholder="Buscar nexo">
-        </form>
-        <!-- Menu de login,registro e informacion -->
-        <nav class="menu-der">
-          <ul class="fa-ul" id="bars">
-                <li><a class="fa fa-bars" id="desplegar"></a></li>
-          </ul>
-
-          <ul class="menu-palabras">
-            <li><a href="#" class="button" id="ingresar">Ingresar</a></li>
-            <li><a href="#" class="button" id="registrar">Registrate</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-<!-- Fin del header -->
+    <header> <!--header usuario-->
+       <div class="header-principal"> <!-- Menu izquierdo-->
+         <nav class="menu-izq">
+           <ul class="fa-ul" id="filtro-home">
+             <li><a class="fa-li fa fa-filter" id="desplegar"></a></li>
+             <li><a class="fa-li fa fa-home" id="home" href="#"></a></li>
+           </ul>
+           <ul class="menu-palabras">
+             <li><a href="#"id="filtro">Departamento</a></li>
+             <li><a href="#">Inicio</a></li>
+           </ul>
+         </nav>
+         <!-- Seccion de busqueda -->
+         <form action="index.html" method="post" class="seccion-busqueda">
+           <img src="images/logo.jpg" alt="Nexo">
+           <input type="search" name="" value="" placeholder="Buscar nexo">
+         </form>
+         <!-- Menu de login,registro e informacion -->
+         <nav class="menu-der">
+           <ul class="fa-ul" id="bars">
+             <li><a class="fa fa-bars" id="desplegar"></a></li>
+           </ul>
+           <ul class="menu-palabras">
+             <li><a href="#" class="button" id="cuenta">Cuenta</a></li>
+             <li><a href="#" class="button" id="logoff">Cerrar sesion</a></li>
+           </ul>
+         </nav>
+       </div>
+     </header> <!-- Fin del header -->
     <main>
       <section class="producto">
         <!-- Fin de la lista de fotos -->
@@ -59,7 +54,9 @@
               <li>1 TB</li>
               <li>8 GB RAM</li>
             </ul>
+
           </figcaption>
+          <button id="eliminar" type="button" name="button">X</button>
         </figure>
         <!-- Fin de detalles egneral del producto -->
       </section>
