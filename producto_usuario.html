@@ -41,7 +41,7 @@
             </ul>
           </nav>
           <!-- Seccion de busqueda -->
-          <form action="index.html" method="post" class="seccion-busqueda">
+          <form action="index1_usuario.html" method="post" class="seccion-busqueda">
             <img src="images/logo.jpg" alt="Nexo">
             <input type="search" name="" value="" placeholder="Buscar nexo">
           </form>
@@ -104,16 +104,16 @@
 <!-- Fin de detalles tecnicos -->
 
       <section>
-        <form action="" class="contacto">
+        <form action="" class="contacto" onsubmit="return validar_contacto();">
             <h2 class="form_titulo">Contactar</h2>
             <div class="contenedor_input2">
-              <input type="text" placeholder="Contactanos!" name="contactos" class="input-60" required>
-              
+              <input type="text" placeholder="Contactanos!"id="contacto" name="contactos" class="input-60" >
+
               <input type="submit" value="Enviar">
-             
+
             </div>
           </form>
-        
+
       </section>
       <section class="mas-productos">
         <article id="otro-producto">
@@ -187,4 +187,6 @@
         </nav>
     </footer> <!--fin footer -->
   </body>
+  <script src="js/validar.js"></script>
+
 </html>

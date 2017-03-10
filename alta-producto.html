@@ -24,6 +24,11 @@
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
       <meta name="theme-color" content="#ffffff">
+      <style>
+      .error{
+        border: 1px solid red;
+      }
+      </style>
     </head>
     <body>
       <header> <!--header usuario-->
@@ -37,7 +42,7 @@
             </ul>
           </nav>
           <!-- Seccion de busqueda -->
-          <form action="index.html" method="post" class="seccion-busqueda">
+          <form action="index1_usuario.html" method="post" class="seccion-busqueda">
             <img src="images/logo.jpg" alt="Nexo">
             <input type="search" name="" value="" placeholder="Buscar nexo">
           </form>
@@ -55,7 +60,7 @@
         </div>
       </header> <!-- Fin del header -->
       <main>
-        <form class="agregar-producto" action="index.html" method="post">
+        <form class="agregar-producto" action="" onsubmit="return validar_alta();">
           <div class="titulo">
             <h3>Agregar producto</h3>
           </div>
@@ -65,11 +70,15 @@
           </div>
           <div class="campo">
             <label for="nombre-producto">Nombre del producto:</label>
-            <input type="text" name="nombre-producto" value="">
+            <input type="text" id="nombre"name="nombre-producto" value="" onblur="validar_alta();">
+            <div>
+            </div>
           </div>
           <div class="campo">
             <label for="precio-producto">Precio del producto:</label>
-            <input type="text" name="precio-producto" value="">
+            <input type="text" id="precio"name="precio-producto" value="" onblur="validar_alta();">
+            <div>
+            </div>
           </div>
           <div class="campo">
             <label for="tipo-producto">Nombre del producto:</label>
@@ -115,7 +124,9 @@
                 </tr>
               </tbody>
             </table>
+              <input type="submit" value="Dar de alta">
           </div>
+
         </form>
       </main>
       <!-- footer usuarios -->
@@ -130,4 +141,6 @@
         </nav>
     </footer> <!--fin footer -->
     </body>
+    <script src="js/validar.js"></script>
+
   </html>

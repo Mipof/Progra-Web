@@ -8,6 +8,7 @@ body {
   background: #FFF;
   color: #67727A;
   font-family: 'Alegreya', sans-serif;
+  text-decoration:none;
   font-size: 85%;
 }
 
@@ -15,7 +16,9 @@ h1 {
   text-align: center;
   padding: 2%;
 }
-
+h2{
+  text-decoration: none;
+}
 h3 {
   padding: 2%;
 }
@@ -25,6 +28,18 @@ main {
   margin-top: 5px;
   display: flex;
   justify-content: center;
+}
+.button {
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    padding: 4px;
+}
+#Detalles {
+    background-color: #6cc644;
+    border: 1px solid #5aad35;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 200px;
 }
 
 .contenedor {
@@ -76,7 +91,7 @@ main {
   width: 100%;
   height: 100%;
   max-width: 250px;
-  max-height: 250px;
+  max-height: 200px;
   min-width: 150px;
   min-height: 150px;
 }
@@ -129,6 +144,9 @@ aside {
   .foto-principal {
     max-width: 100px;
     max-height: 100px;
+  }
+  .detalles-generales{
+    width: 50%;
   }
 
   .producto figure figcaption {

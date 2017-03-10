@@ -26,6 +26,11 @@
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
       <meta name="theme-color" content="#ffffff">
+      <style>
+      .error{
+        border: 1px solid red;
+      }
+      </style>
     </head>
     <body>
       <header> <!-- Header general-->
@@ -40,7 +45,7 @@
           </ul>
         </nav>
         <!-- Seccion de busqueda -->
-        <form action="index.html" method="post" class="seccion-busqueda">
+        <form action="index1.html" method="post" class="seccion-busqueda">
             <img src="images/logo.jpg" alt="Nexo">
             <input type="search" name="" value="" placeholder="Buscar nexo">
         </form>
@@ -60,17 +65,33 @@
 <!-- Fin del header -->
       <main>
         <section id="cuerpo" class="item">
-          <form action="" class="formulario">
+          <form action="" class="formulario" onsubmit="return validar_registro();">
             <h2 class="form_titulo">Registro</h2>
             <div class="contenedor_input">
-              <input type="text" placeholder="Nombres" name="nombre" class="input-48" required>
-              <input type="text" placeholder="Apellidos" name="apellidos" class="input-48" required>
-              <input type="email" placeholder="Correo" name="correo" class="input-100" required>
-              <input type="text" placeholder="Nombre de la empresa" name="empresa" class="input-48">
-              <input type="text" placeholder="Telefono" name="telefono" class="input-100" required>
-              <input type="text" placeholder="Direccion" name="direccion" class="input-48" required>
-              <input type="text" placeholder="Usuario" name="usuario" class="input-48" required>
-              <input type="password" placeholder="Contraseña" name="contraseña" class="input-48" required>
+              <input type="text" placeholder="Nombres" id="nombre"name="nombre" class="input-48" onblur="validar_registro();">
+              <div>
+              </div>
+              <input type="text" placeholder="Apellidos" id="apellidos"name="apellidos" class="input-48" onblur="validar_registro();" >
+              <div>
+              </div>
+              <input type="text" placeholder="Correo" id="correo"name="correo" class="input-100" onblur="validar_registro();">
+              <div>
+              </div>
+              <input type="text" placeholder="Nombre de la empresa" id="empresa"name="empresa" class="input-48" onblur="validar_registro();">
+              <div>
+              </div>
+              <input type="text" placeholder="Telefono" name="telefono" id="telefono"class="input-100" onblur="validar_registro();">
+              <div>
+              </div>
+              <input type="text" placeholder="Direccion" name="direccion" id="direccion"class="input-48" onblur="validar_registro();">
+              <div>
+              </div>
+              <input type="text" placeholder="Usuario" name="usuario" id="usuario"class="input-48" onblur="validar_registro();">
+              <div>
+              </div>
+              <input type="password" placeholder="Contraseña" name="contraseña" id="contraseña"class="input-48" onblur="validar_registro();">
+              <div>
+              </div>
               <input type="submit" value="Ingresar">
               <p class="btn_link">Ya tienes una cuenta?<a  href="login.html">Ingrese aqui</a></p>
             </div>
@@ -80,8 +101,10 @@
         <!-- Fin de detalles tecnicos -->
         <!-- Fin de detalles de empresa -->
          <!-- footer general -->
-      
+
       </main>
-    
+
     </body>
+    <script src="js/validar.js"></script>
+
   </html>

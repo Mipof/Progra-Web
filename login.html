@@ -26,6 +26,11 @@
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
       <meta name="theme-color" content="#ffffff">
+      <style>
+      .error{
+        border: 1px solid red;
+      }
+      </style>
     </head>
     <body>
       <header> <!-- Header general-->
@@ -40,9 +45,9 @@
           </ul>
         </nav>
         <!-- Seccion de busqueda -->
-        <form action="index.html" method="post" class="seccion-busqueda">
+        <form action="index1.html" method="post" class="seccion-busqueda">
             <img src="images/logo.jpg" alt="Nexo">
-            <input type="search" name="" value="" placeholder="Buscar nexo">
+            <input type="search" name="" value="" id="buscar"placeholder="Buscar nexo">
         </form>
         <!-- Menu de login,registro e informacion -->
         <nav class="menu-der">
@@ -60,18 +65,22 @@
 <!-- Fin del header -->
       <main>
         <section id="cuerpo" class="item">
-          <form action="" class="formulario">
+          <form action="" class="formulario" onsubmit="return validar_login();">
             <h2>Login</h2>
-            <input type="text" placeholder="&#128273; Usuario" name="usuario" required>
-            <input type="password" placeholder="&#128273; Contraseña" name="contraseña" required>
+            <input type="text"  id="usuario"placeholder="&#128273; Usuario" name="usuario" onblur="validar_login();">
+            <div>
+            </div>
+            <input type="password" id="password"placeholder="&#128273; Contraseña" name="contraseña" onblur="validar_login();">
             <input type="submit" value="Ingresar">
+
           </form>
         </section>
         <h2>No tienes una cuenta?</h2>
-        <a class="boton" href="registro.html" title="Registro">           Registrate            </a>  
+        <a class="boton" href="registro.html" title="Registro">           Registrate            </a>
         <!-- Fin del producto -->
         <!-- Fin de detalles tecnicos -->
         <!-- Fin de detalles de empresa -->
       </main>
     </body>
+    <script src="js/validar.js"></script>
   </html>
